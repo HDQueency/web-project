@@ -1,0 +1,60 @@
+/*初始化样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style-type: none;
+}
+a{
+	color: #666;
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.fade{
+	opacity: 0;
+}
+.show{
+	opacity: 1;
+}
+/*start*/
+/*改变表头字体大小*/
+table tr:first-child th{
+	font-size: 30px;
+}
+/*将单选框本身的格式去掉*/
+input[type="radio"]{
+	display: none;
+}
+/*定义新的单选框格式*/
+input[type="radio"] + label:before{
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #000;
+}
+/*定义选中格式*/
+input[type="radio"]:checked + label:before{
+	background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
