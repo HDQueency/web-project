@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>使用display制作一个表格</title>
+	<link rel="stylesheet" type="text/css" href="用display制作一个表格.css">
+</head>
+<body>
+	<div class="table">
+		<h2 class="table-caption">花名册:</h2>
+		<div class="table-column-group">
+			<div class="table=colume"></div>
+			<div class="table=colume"></div>
+			<div class="table=colume"></div>
+		</div>
+		<div class="table-header-group">
+			<div class="table-row">
+				<div class="table-cell">序号</div>
+				<div class="table-cell">姓氏</div>
+				<div class="table-cell">得分</div>
+			</div>
+		</div>
+		<div class="table-row-group">
+			<div class="table-row">
+				<div class="table-cell">1</div>
+				<div class="table-cell">黄</div>
+				<div class="table-cell">120</div>
+			</div>
+			<div class="table-row">
+				<div class="table-cell">2</div>
+				<div class="table-cell">龚</div>
+				<div class="table-cell">100</div>
+			</div>
+			<div class="table-row">
+				<div class="table-cell">3</div>
+				<div class="table-cell">智</div>
+				<div class="table-cell">110</div>
+			</div>
+		</div>
+		<div class="table-footer-group">
+			<div class="table-row">
+				<div class="table-cell">footer1</div>
+				<div class="table-cell">footer2</div>
+				<div class="table-cell">footer3</div>
+		    </div>
+		</div>
+	</div>
+	<p>总结：使用display建立表格需要先建立大的结构，table,table-caption,table-header-group,table-column-group,table-row-group,table-footer-group,再建立小结构table-row,table=colume,table-cell,按照相应的展示形式设置display就好，这种方法看起来要麻烦的多；</p>
+</body>
+</html>

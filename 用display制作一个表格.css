@@ -1,0 +1,79 @@
+/*初始化样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style-type: none;
+}
+a{
+	color: #666;
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.fade{
+	opacity: 0;
+}
+.show{
+	opacity: 1;
+}
+/*start*/
+.table{
+	display: table;
+	border-collapse: collapse;
+	border: 1px solid #000;
+}
+.table-caption{
+	display: table-caption;
+}
+.table-column-group{
+	display: table-column-group;
+
+}
+.table-header-group{
+	display: table-header-group;
+	background-color: #201bff;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.table-row-group{
+	display: table-row-group;
+	font-size: 16px;
+}
+.table-row-group .table-row:hover{
+	color: #ff0032;
+}
+.table-footer-group{
+	display: table-footer-group;
+	font-style: italic;
+}
+.table-row{
+	display: table-row;
+}
+.table-column{
+	display: table-column;
+}
+.table-cell{
+	display: table-cell;
+	border: 1px solid #000;
+	width: 100px;
+	height: 100px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
